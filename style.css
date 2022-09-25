@@ -1,0 +1,512 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+
+
+
+
+.header{
+    height: 150px;
+    width: 1920px;
+    background-color:aquamarine;
+}
+
+.header img{
+    height: 130px;
+    border-radius: 300px;
+    margin-left: 100px;
+    margin-top: 10px;
+}
+
+#naam{
+    text-align: center;
+    padding: 25px;
+    margin: 25px;
+    color: red;
+}
+
+.nav{
+    display: flex;
+    margin-top: 10px;
+}
+
+
+
+
+
+#bgimg{
+    /* background-size: cover; */
+    /* width: 1920px; */
+    /* height: 1000px; */
+    backdrop-filter: blur(50px);
+    height: 100%;
+    width: 100.9%;
+    filter: blur(4px);
+}
+
+h2{
+    position: absolute;
+    top: 30%;
+    left: 78%;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color:aquamarine;
+}
+
+#form{
+    position: absolute;
+    top: 35%;
+    left: 74%;
+    padding: 15px;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    width: 250px;
+    font-size: 20px;
+    border: 2px solid aquamarine;
+    box-shadow:10px 10px 15px black;
+    color: aquamarine;
+}
+
+#name{
+    width: 227px;
+    border-radius: 7px;
+    height: 25px;
+    padding: 5px;
+    margin: 5px 5px;
+    background-color:cornsilk;
+}
+
+#check{
+    padding: 5px;
+    margin: 5px;
+    
+}
+
+#mail{
+    width: 227px;
+    border-radius: 7px;
+    height: 25px;
+    padding: 5px;
+    margin: 5px 5px;
+    background-color:cornsilk;
+}
+
+#age{
+    width: 227px;
+    border-radius: 7px;
+    height: 25px;
+    padding: 5px;
+    margin: 5px 5px;
+    background-color:cornsilk;
+}
+
+#mem{
+    width: 238px;
+    border-radius: 7px;
+    height: 30px;
+    padding: 5px;
+    margin: 5px 5px;
+    background-color:cornsilk;
+}
+
+#train{
+    width: 238px;
+    border-radius: 7px;
+    height: 30px;
+    padding: 5px;
+    margin: 5px 5px;
+    background-color:cornsilk;
+}
+
+#submit{
+    width: 150px;
+    border-radius: 7px;
+    height: 25px;
+    padding: 5px;
+    margin: 5px 5px;
+    background-color: #1ab26b;
+    margin-left: 50px;
+    margin-top: 10px;
+    color: #FFF;
+}
+
+#vid{
+    position: absolute;
+    top: 35%;
+    left: 15%;
+    width: auto;
+    height: auto;
+    /* margin: 50px 50px;
+    padding: 50px 50px; */
+    border-radius: 20px;
+}
+
+#wtrain{
+    position: absolute;
+    height: 300px;
+    width: 30%;
+    top: 90%;
+    left: 2%;
+    border-radius: 20px;
+}
+
+#hflag{
+    position: absolute;
+    height: 300px;
+    width: 30%;
+    top: 90%;
+    left: 35%;
+    border-radius: 20px;
+}
+
+#zumba{
+    position: absolute;
+    height: 300px;
+    width: 30%;
+    top: 90%;
+    right: 2%;
+    border-radius: 20px;
+}
+
+#wt{
+    position: absolute;
+    top: 85%;
+    left: 13%;
+    font-family:'Poppins';
+    color:rgb(127, 209, 182);
+    font-size: x-large;
+}
+
+#cal{
+    position: absolute;
+    top: 85%;
+    left: 45%;
+    font-family: 'Poppins';;
+    color:rgb(127, 209, 182);
+    font-size: x-large;
+}
+
+#zum{
+    position: absolute;
+    top: 85%;
+    left: 80%;
+    font-family: 'Poppins';;
+    color:rgb(127, 209, 182);
+    font-size: x-large;
+}
+
+/* .programs:hover img{
+    filter: brightness(1.10);
+} */
+
+/* #zoomin{
+    overflow: hidden;
+} */
+
+#zoomin img{
+    transition: transform 1s;
+}
+
+#zoomin:hover img{
+    transform: scale(1.1);
+}
+
+a:hover{
+    color:#FFF;
+}
+
+/* footer{
+    width: 100vw;
+    height: 300px;
+    border-bottom: solid 10px rgba(16, 16, 16, 0.1);
+    font-family: 'Poppins';
+    background-color:#1ab26b;
+    /* border-top: solid 10px burlywood; 
+    font-family: 'Poppins';
+    display: flex    
+}
+
+.foot div{
+    margin: 30px;
+    /* display: flex; 
+    position: absolute;
+    text-align: center;
+}
+
+.col1{
+    left: 10%;
+}
+
+.col2{
+    left: 40%;
+    display: block;
+}
+
+.col3{
+    right: 10%;
+}
+
+footer div h5{
+    padding: 10px;
+    padding-bottom: 30px;
+    letter-spacing: 2px;
+    font-size: large;
+}
+
+.col1 a{
+    /* display: block; 
+    margin: 0.1px;
+    /* padding: 0.01px; 
+}
+
+#email{
+    width: 300px;
+    text-align: center;
+    /* padding-top: 50px; 
+    border-radius: 7px;
+    height: 25px;
+    padding: 5px;
+    margin: 5px 5px;
+    background-color:white;
+
+}
+
+/* #butt{
+    width: 100px;
+    height: 20px;
+    padding: 20px;
+} 
+
+.links a{
+    margin: 10px;
+    padding: 10px;
+}*/
+
+.footer{
+    width: 100vw;
+    height: 250px;
+    border-bottom: solid 10px rgba(16, 16, 16, 0.1);
+    font-family: 'Poppins';
+    background-color:#1ab26b;
+    display: flex;
+    justify-content: center; 
+    /* margin: 0 auto; */
+    
+}
+
+.footer h5{
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    font-size: 18px;
+    text-align: center;
+    
+}
+
+#footmail{
+    height: 40px;
+    width: 450px;
+    border-radius: 30px;
+    text-align: center;
+    border: none;
+    outline: none;
+    margin-bottom: 2rem;
+}
+
+#footsubmit{
+    height: 30px;
+    width: 100px;
+    margin-left: 11rem;
+    border-radius: 20px;
+    border: none;
+    color: #FFF;
+    background-color: black;
+}
+
+.col1{
+    text-align: center;
+    margin-right: 400px;
+}
+
+.col2{
+    margin-right: 280px;
+}
+
+/* .programs{
+    margin-bottom: 50px;
+} */
+
+
+/* ----------------------------------------------------------------------------------------------------------- */
+
+
+@media (min-width:375px) and (max-width: 667px){
+    
+    .header{
+        height: 100px;
+        width: 375px;
+        background-color:aquamarine;
+        border-bottom: 10px solid rgba(16, 16, 16, 0.1);
+    }
+    
+    .header img{
+        height: 90px;
+        border-radius: 300px;
+        margin-left: 5px;
+        margin-top: 5px;
+    }
+
+    #vid{
+        position: absolute;
+        top: 19%;
+        left: 4.5%;
+        width: auto;
+        height: 193px;
+        /* margin: 50px 50px;
+        padding: 50px 50px; */
+        border-radius: 20px;
+    }
+
+    #bgimg{
+        /* background-size: cover; */
+        /* width: 1920px; */
+        height: 1450px;
+        backdrop-filter: blur(50px);
+        /* height: 100%; */
+        width: 100%;
+        filter: blur(4px);
+    }
+
+    h2{
+        position: absolute;
+        top: 50%;
+        left: 36%;
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        color:aquamarine;
+    }
+
+    #form{
+        position: absolute;
+        top: 55%;
+        left: 12%;
+        padding: 15px;
+        background-color: rgba(0, 0, 0, 0.2);
+        border-radius: 10px;
+        width: 250px;
+        /* height: 200px; */
+        font-size: 20px;
+        border: 2px solid aquamarine;
+        box-shadow:10px 10px 15px black;
+        color: aquamarine;
+    }
+
+    #wtrain{
+        position: absolute;
+        height: 200px;
+        width: 90%;
+        top: 115%;
+        left: 4%;
+        border-radius: 20px;
+    }
+    
+    #hflag{
+        position: absolute;
+        height: 200px;
+        width: 90%;
+        top: 155%;
+        left: 4%;
+        border-radius: 20px;
+    }
+    
+    #zumba{
+        position: absolute;
+        height: 200px;
+        width: 82%;
+        top: 196%;
+        left: 8%;
+        border-radius: 20px;
+    }
+    
+    #wt{
+        position: absolute;
+        top: 110%;
+        left: 23%;
+        font-family:'Poppins';
+        color:rgb(127, 209, 182);
+        font-size: x-large;
+    }
+    
+    #cal{
+        position: absolute;
+        top: 150%;
+        left: 25%;
+        font-family: 'Poppins';;
+        color:rgb(127, 209, 182);
+        font-size: x-large;
+    }
+    
+    #zum{
+        position: absolute;
+        top: 191%;
+        left: 35%;
+        font-family: 'Poppins';;
+        color:rgb(127, 209, 182);
+        font-size: x-large;
+    }
+    
+    .footer{
+        width: 100vw;
+        height: 500px;
+        border-bottom: solid 10px rgba(16, 16, 16, 0.1);
+        font-family: 'Poppins';
+        background-color:#1ab26b;
+        display: flex;
+        justify-content: center;
+        /* margin: 0 auto; */
+        
+    }
+
+    .col1{
+        position: absolute;
+        /* text-align: center; */
+        margin-right: 40px;
+        left: 25%;
+        /* top: 30%; */
+        padding: 170px 20px;
+    }
+    
+    .col2{
+        position: absolute;
+        padding-left: 270px;
+        /* left: 2%; */
+    }
+
+    .col3{
+        position: absolute;
+        /* margin-left: 20px; */
+        padding: 330px 20px;
+    }
+
+    #footmail{
+        height: 40px;
+        width: 300px;
+        border-radius: 30px;
+        text-align: center;
+        border: none;
+        outline: none;
+        margin-bottom: 1.5rem;
+    }
+
+    #footsubmit{
+        height: 30px;
+        width: 100px;
+        margin-left: 6.3rem;
+        border-radius: 20px;
+        border: none;
+        color: #FFF;
+        background-color: black;
+    }
+    
+}
